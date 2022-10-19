@@ -9,7 +9,7 @@ Source0:	https://downloads.sourceforge.net/mac-robber/%{name}-%{version}.tar.gz
 
 %description
 mac-robber is a digital forensics and incident response tool that can be used
-with The Sleuth Kit to create a timeline of file activity for mounted 
+with The Sleuth Kit to create a timeline of file activity for mounted
 file systems.
 
 %files
@@ -29,4 +29,3 @@ file systems.
 %install
 mkdir -p %{buildroot}%{_bindir}
 install -m755 %{name} %{buildroot}%{_bindir}/
-
